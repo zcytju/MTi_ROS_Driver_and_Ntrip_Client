@@ -50,8 +50,8 @@ Ntrip 客户端订阅 ``xsens_ros_mti_driver`` 的 ``/nmea`` 话题，并等待�
 
 安装依赖项：
 ```
-sudo apt install ros-[ROSDISTRIBUTION]-nmea-msgs
-sudo apt install ros-[ROSDISTRIBUTION]-mavros-msgs
+sudo apt install ros-$ROS_DISTRO-nmea-msgs
+sudo apt install ros-$ROS_DISTRO-mavros-msgs
 ```
 
 以 ROS Noetic 为例（使用 ``rosversion -d`` 获取您的版本）：
