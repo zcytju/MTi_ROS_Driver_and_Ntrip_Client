@@ -46,8 +46,8 @@ User needs to change the ``ntrip.launch`` for their own credentials/servers/moun
 ## How to Install:
 install dependency:
 ```
-sudo apt install ros-[ROSDISTRIBUTION]-nmea-msgs
-sudo apt install ros-[ROSDISTRIBUTION]-mavros-msgs
+sudo apt install ros-$ROS_DISTRO-nmea-msgs
+sudo apt install ros-$ROS_DISTRO-mavros-msgs
 ```
 for example for ROS Noetic(use ``rosversion -d`` to get your version):
 ```
@@ -185,5 +185,6 @@ If the program displays the message `No MTi device found`:
   sudo apt install cutecom
   cutecom
   ```
+
 
 
